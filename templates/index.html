@@ -1,0 +1,10 @@
+<html>
+    <h1>Alicia's Sentiment Analysis</h1>
+    <form action="/" method="post">
+        <!-- Addition of p to force code to be in a scroll up/down format instead of L to R --> 
+        <p>Please enter text for sentiment analysis:</p>
+        <p><input type="text" name="text"></p>
+        <p><input type="submit" value="Enter"></p> <!-- This is merely a display, does not contain any actions once Enter is pressed -->
+    </form>
+    <p>The sentiment score is {{result}}</p> <!-- This is to throw back the result back to FE side -->
+</html>
